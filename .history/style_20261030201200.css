@@ -1,0 +1,17 @@
+.c-search {
+    border: 1px solid green;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.search {
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.search-button {
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
