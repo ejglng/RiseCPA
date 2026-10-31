@@ -1,0 +1,43 @@
+/* initial css */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* placeholder font */
+}
+
+.doc-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-box-subhead-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.doc-box-link {
+  /* temporary styling - before js react */
+  color: rgb(0, 149, 255);
+
+  font-size: x-small;
+  align-self: center;
+  margin-left: 8em;
+}
+
+.doc-box-subheader {
+  font-weight: 500;
+  margin: 0;
+}
+
+.doc-item-title {
+  color: #87b04b;
+  margin: 0.5em 0;
+  font-size: medium;
+}
+
+.doc-item-desc {
+  color: #605e5c;
+  font-size: x-small;
+  margin-bottom: 2em;
+  margin-top: -1em;
+}
