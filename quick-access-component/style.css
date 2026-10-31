@@ -1,0 +1,15 @@
+/* initial css */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* placeholder font */
+}
+
+.doc-item-title {
+  color: #87b04b;
+}
+
+.doc-item-desc {
+  color: #605e5c;
+  font-size: x-small;
+}
