@@ -1,0 +1,11 @@
+.sidebar-item {
+    width: 44px;
+    height: 44px;
+    background-color: #2f3331;
+    border: none;
+}
+
+.sidebar-item img {
+    width: 24px;
+    height: 24px;
+}

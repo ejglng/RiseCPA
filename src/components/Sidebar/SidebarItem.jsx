@@ -3,9 +3,13 @@ import "./SidebarItem.css";
 export default function SidebarItem({ icon, label }) {
     
     return (
-        <div>
-            
-        </div>
+        <button className="sidebar-item">
+            <img 
+                className="sidebar-item__icon"
+                src={icon}
+                alt={label}
+            />
+        </button>
     )
 
 }
