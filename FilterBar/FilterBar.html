@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Filter Component</title>
+        <link
+            rel="stylesheet"
+            href="FilterBar.css"
+        />
+    </head>
+    <body>
+        <div class="filter__container">
+            <button
+                class="filter__button"
+                type="button"
+            >
+                <span>Filter</span>
+            </button>
+
+            <div class="filter__panel">
+                <h3>Filter Options</h3>
+
+                <div class="filter__group">
+                    <label for="department">Department</label>
+                    <select id="department">
+                        <option value="">All</option>
+                        <option value="tax">Tax</option>
+                        <option value="accounting">Accounting</option>
+                        <option value="hr">Human Resources</option>
+                        <option value="finance">Fincance</option>
+                    </select>
+                </div>
+
+                <div class="filter__group">
+                    <label for="document__type">Document Type</label>
+                    <select id="document__type">
+                        <option value="">All</option>
+                        <option value="pdf">PDF</option>
+                        <option value="docx">Word Document</option>
+                        <option value="xlsx">Excel Spreadsheet</option>
+                    </select>
+                </div>
+
+                <div class="filter__group">
+                    <label for="year__modified">Year Modified</label>
+                    <select id="year__modified">
+                        <option value="">All</option>
+                        <option value="2026">2026</option>
+                        <option value="2025">2025</option>
+                        <option value="2025">2024</option>
+                    </select>
+                </div>
+
+                <div class="filter__actions">
+                    <button
+                        class="clear__button"
+                        type="button"
+                    >
+                        Clear All
+                    </button>
+
+                    <button
+                        class="apply__button"
+                        type="button"
+                    >
+                        Apply Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
