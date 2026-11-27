@@ -10,7 +10,10 @@ export default function SidebarItem({ icon, label }) {
                 alt={label}
             />
 
-            
+            <span className="sidebar-item__tooltip">
+                {label}
+            </span>
+
         </button>
     )
 
