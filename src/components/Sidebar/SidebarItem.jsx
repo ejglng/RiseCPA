@@ -9,6 +9,8 @@ export default function SidebarItem({ icon, label }) {
                 src={icon}
                 alt={label}
             />
+
+            
         </button>
     )
 

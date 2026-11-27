@@ -30,6 +30,8 @@ export default function Sidebar() {
                 label="Guides"
             />
 
+            <hr className="sidebar-divider" />
+
             <SidebarItem 
                 icon="/icons/Add.svg" 
                 label="Add"
